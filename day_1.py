@@ -51,3 +51,12 @@ while True:
         print(f"Division performed on the numbers is : {inputOne} / {inputTwo}")
     
     print(20 * "-")
+
+    # calulate the area of the triangle using the given inputs
+
+base = int(input("Enter the base of the triangle : "))
+height = int(input("Enter the height of the triangle : "))
+
+area = 0.5 * base * height
+
+print(f"Area of the triangle is : {area}")
