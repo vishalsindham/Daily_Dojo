@@ -48,3 +48,54 @@
 
 # cal = calendar.month(year,month)
 # print(cal)
+
+# Write a python program to solve quadratic equation
+
+# import math
+
+# a = float(input("Enter coefficient a: "))
+# b = float(input("Enter coefficient b: "))
+# c = float(input("Enter coefficient c: "))
+
+# discriminant = b**2 - 4*a*c
+
+# if discriminant > 0:
+
+#     root1 = (-b + math.sqrt(discriminant)) / (2*a)
+#     root2 = (-b - math.sqrt(discriminant)) / (2*a)
+#     print(f"Root 1: {root1}")
+#     print(f"Root 2: {root2}")
+
+# elif discriminant == 0 :
+#     root = -b / (2*a)
+#     print(f"Root: {root}")
+
+# else :
+#     real_part = -b / (2*a)
+#     imaginary_part = math.sqrt(abs(discriminant)) / (2*a)
+#     print(f"Root 1 : {real_part} + {imaginary_part}i")
+#     print(f"Root 2 : {real_part} - {imaginary_part}i")
+
+# Write a python program to swap two variables without temp variables
+
+# a = int(input("Enter a value for the first variable : "))
+# b = int(input("Enter a value for the second variable : "))
+
+# # swapping without a temporary variable
+# print(f"Values of variables before swapping a :{a}, b :{b}")
+
+# a, b = b, a
+
+# print(f"Values of variables after swapping a :{a}, b :{b}")
+
+# Write a python program to check if a number is positive, negative or zero.
+
+# input_number = float(input("Enter a number you want to check : "))
+
+# if  input_number > 0:
+#     print("Enterted number is positive.")
+
+# elif input_number == 0:
+#     print("Entered number is zero.")
+# else :
+#     print("Entered number is negative.")
